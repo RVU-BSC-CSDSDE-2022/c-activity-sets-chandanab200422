@@ -11,7 +11,7 @@ int main(void){
   return 0;
   }
 
-int sum_func(int a,int b)
+int sum_func(int a,int b);
 {
   int sum = a+b;
   return sum;
