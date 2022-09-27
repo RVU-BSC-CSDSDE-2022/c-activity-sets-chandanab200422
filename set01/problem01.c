@@ -1,5 +1,5 @@
 #include<studio.h>
 int main(void){
-  printf("chandanacd")
+  printf("chandanad")
 return 0;
 }
