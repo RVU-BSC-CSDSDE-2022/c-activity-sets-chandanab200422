@@ -10,6 +10,6 @@ int main(void){
 }
 void change(int *x, int*y, int *sum)
 {
-  *x=8
-  *y=7
+  *x=5
+  *y=9
 }    
