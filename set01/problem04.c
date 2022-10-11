@@ -8,8 +8,8 @@ int main(void){
   printf("x is %d y is %d",x,y);
   return 0;
 }
-void change(int *x, int*y, int *sum)
+void change(int *x, int *y, int *sum)
 {
-  *x=8
-  *y=7
+  *x=8;
+  *y=7;
 }    
