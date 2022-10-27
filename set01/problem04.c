@@ -3,7 +3,7 @@ void changa(int *x,int *y);
 int main(void){
   int x,t;
   x=8,y=7;
-  change($x,&y);
+  change(&x,&y);
   printf("x is %d y is %d",x,y);
   return 0;
 }
