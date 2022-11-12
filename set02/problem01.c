@@ -1,7 +1,5 @@
-#include <stdio.h>
 #include <string.h>
-  
-int main()
+  int main()
 {
   
     char str[] = "RV University";
@@ -11,3 +9,4 @@ int main()
     printf("Length of string DataScience is %d", length);
     return 0;
 }
+
