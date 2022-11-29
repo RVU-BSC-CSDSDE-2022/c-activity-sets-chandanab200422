@@ -19,6 +19,7 @@ int input(){
   return(x);
   }
 
+//use && operator insted of nested if-else
 int compare(int a, int b , int c){
   if(a>b){
     if(a>c){return(a);}
