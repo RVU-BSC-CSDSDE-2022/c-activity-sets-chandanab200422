@@ -11,7 +11,6 @@ int main(void){
   printf("sum is %d", sum);
 }
   
-
 sum_calc(int a, int b, int *sum)
 {
   *sum=a+b;
