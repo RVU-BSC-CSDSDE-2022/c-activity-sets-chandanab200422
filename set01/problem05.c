@@ -21,7 +21,9 @@ int input(){
 
 int compare(int a, int b , int c){
   if(a>b){
-  {
+    if(a>c){return(a);}
+    else{return(c);}
+  }
   else 
   {
     if(b>c){return(b);}
@@ -29,7 +31,7 @@ int compare(int a, int b , int c){
     }
   }
 void output(int a, int b, int c, int largest){
-  printf("the largest of %d, %d and %d is %d" a,b,c largest);
+  printf("the largest of %d, %d and %d is %d",a,b,c,largest);
 }
 
 
