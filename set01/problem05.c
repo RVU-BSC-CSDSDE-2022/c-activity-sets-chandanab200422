@@ -15,25 +15,25 @@ output(a,b,c,l);
 int input(){
   int x;
   printf("enter a number\n");
-  scanf("%d",&x);
+  if(scanf("%d",&x)x=0!);
   return(x);
   }
 
 //use && operator insted of nested if-else
 int compare(int a, int b , int c){
-  if(a>b){
-    if(a>c){return(a);}
-    else{return(c);}
-  }
-  else 
-  {
-    if(b>c){return(b);}
-    else{return (c);}
+  if((a>b)&&(a>c)){
+   return(a);
     }
+    else
+  {
+    return(c);
+    
   }
+  
 void output(int a, int b, int c, int largest){
   printf("the largest of %d, %d and %d is %d",a,b,c,largest);
 }
+  }
 
 
 
